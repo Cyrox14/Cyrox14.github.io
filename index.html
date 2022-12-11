@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta name="viewport" 
+        content="width=device-whidth"
+        initial-scale="1.0" >
+        <meta charset="utf-8">
+        <title> Sitio CJRP </title>
+        <link rel="stylesheet"  href="css/estilo.css">
+
+        <script src="https://kit.fontawesome.com/c2a9869452.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <a href="#" class="marca">Los Pollos Hermanos</a>
+            <ul>
+                <li><a href="#home" onClick="alternar()">Inicio</a></li>
+                <li><a href="#about" onClick="alternar()">Nosotros</a></li>
+                <li><a href="#services" onClick="alternar()">Servicios</a></li>
+                <li><a href="#stats" onClick="alternar()">Logros</a></li>
+                <li><a href="#team" onClick="alternar()">Equipo</a></li>
+                <li><a href="#tcontac" onClick="alternar()">Contacto</a></li>
+                <li><span onClick="showloginBox()">Logín</span></li>
+            </ul>
+            <div class="toggle" onClick="alternar()">
+            </div>
+        </header>
+        <!-- Banner -->
+        <section class="banner" id="home">
+          <h2>Hello and welcomen to the<span> los pollos hermanos family </span>my name is Ciro but you call me jesus </h2>
+        </section>
+        <!-- About -->
+        <section class="sec" id="about">
+            <div class="content">
+                <div class="mxv800p">
+                    <h3>¿Quienes Somos?</h3>
+                    <p> Bienvenid@, al mejor sitio de de pollos de todos los tiempos, somos una empresa que luchamos 
+                        día a día buscando lo mejor para nuestros CLIENTES y corrigiendo nuestros errores. Aquí estamos 
+                        llegando con nuestros sabores únicos que nos diferencia y superando los obstáculos.
+                        
+                        Te invito que nos visites y saques tus conclusiones de los sabores que tenemos.| Te esperamos .
+                        </p>
+                        <a href="#" class="btn">Saber Más</a>
+                </div>
+            </div>
+        </section>
+        <!-- Services -->
+        <section class="sec" id="services">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3> ¿Que Hacemos? </h3>
+                    <p> Tenemos una gran variedad de guisos en nuestros pollos con una deliciosa receta 
+                        de pollo perfeccionada a lo largo de muchos años, nuestros clientes vuelvan una y otra vez 
+                        para disfrutar de ese sabor suculento y sabroso. Nuestros pollos se venden con hueso y en 
+                        cajas con una amplia gama de sabores y especias, así que ¿por qué no probarlos hoy mismo? 
+                        Te garantizamos que no te decepcionaremos, tal y como te podrán asegurar nuestros muchos 
+                        clientes. </p>
+                </div>
+                <div class="services">
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="assets/pierna_pollo.png">
+                        </div>
+                        <div class="content">
+                            <h2>Pierna Pollo</h2>
+                            <ul> </ul>
+                            <p>Contamos con las mejores piernas de pollos con un sabor esquisito gracias a nuestros 
+                                distintos tipos de guisos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="assets/pechuga_pollo.png">
+                        </div>
+                        <div class="content">
+                            <h2>Pechuga Pollo</h2>
+                            <ul> </ul>
+                            <p>Contamos tambien con las mejores pechugas de pollos, en ningun otro lado encontraras 
+                                la mejor calidad como las nuestas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="assets/pollo_asado.png">
+                        </div>
+                        <div class="content">
+                            <h2>Pollo Asado</h2>
+                            <ul> </ul>
+                            <p>Por su puesto no puede faltar nuestro platillo princial de pollo asado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Stats -->
+        <section class="sec stats" id="stats">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3> Logros </h3>
+                    <p>A lo largo de nuestro trayecto como empresa hemos obtenido grander logros, de los cuales nos sentomos 
+                        orgullosos ya que esto habla bien de nuestra empresa, en "Los pollos hermanos family" tenemos un gran 
+                        historia siendo uno de los 5 mejores restaurantes dentro del mercado loca, aparte de ser reconocidos no
+                        solo localmente sino tambien estatalmente siendo una de los mejores 10 restaurantes de pollos, 
+                        contamos con alrededor de 1500 clientes diarios los cuales salen satisfechos por nuestros servicios y 
+                        gracias a esto tenemos 1 reconocimieto por ser de los mejores restaurantes con buena atencion al cliente
+                    </p>
+                </div>
+                <div class="statsBox">
+                    <div class="box">
+                        <h2>5to</h2>
+                        <h4>Mejor Restaurante</h4>
+                    </div>
+                    <div class="box">
+                        <h2>8vo</h2>
+                        <h4>Mejor Restaurante Estatal</h4>
+                    </div>
+                    <div class="box">
+                        <h2>1500</h2>
+                        <h4>Clientes Diarios</h4>
+                    </div>
+                    <div class="box">
+                        <h2>1</h2>
+                        <h4>Reconocimiento</h4>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        <!-- Portafolio -->
+        <section class="sec work" id="portafolio">
+            <div class="content">
+                <div class="mvx800p">
+                    <h3> Platillos Recientes </h3>
+                    <p>A continuacion se mostraran nuestros platillos mas recientes los cuales estas siendo un gran exito ven y prueba 
+                        nuestros nuesvos platillos y danos tu opinion.
+                    </p>
+                </div>
+                <div class="workBx">
+                    <div class="brand">
+                        <a href="#"> <h2>Pollo Horneado</h2></a>
+                    </div>
+                    <div class="brand">                
+                        <a href="#"> <h2>Pollo Relleno de Kale</h2></a>
+                    </div>
+                    <div class="brand">                
+                        <a href="#"> <h2>Rajas Cremosas</h2></a>
+                    </div>
+                    <div class="brand">                
+                        <a href="#"> <h2>Panes con Pollo</h2></a>
+                    </div>
+                    <div class="brand">                
+                        <a href="#"> <h2>Crepas Suizas</h2></a>
+                    </div>
+                    <div class="brand">                
+                        <a href="#"> <h2>Albondigas de Pollo</h2></a>
+                    </div>
+                    <div class="brand">                
+                        <a href="#"> <h2>Pollo en Salsa Verde</h2></a>
+                    </div>            
+                    <div class="brand">
+                        <a href="#"> <h2>Paste Azteca</h2></a>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <!-- Slider -->
+        <!-- Team -->
+        <section class="sec" id="team">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3> Conoce a nuestro equipo </h3>
+                    <p>Como la comunicacion es parte fundamental para nosostros, a continucación te presentamos a algunos
+                        de los integrantes de nuesta empresa.
+                    </p>
+                </div>
+                <div class="teamBx">
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="assets/HelaBronw.jpeg">
+                        </div>
+                        <div class="details">
+                            <h2>Hela Brown <br> <span>Jefa de Recursos Financieros</span></h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="assets/Ciro.jpeg">
+                        </div>
+                        <div class="details">
+                            <h2>Ciro Romero<br> <span>Jefe de Recursos Humanos</span></h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="assets/Spreen.jpeg">
+                        </div>
+                        <div class="details">
+                            <h2>SpreenDMC<br> <span>Presidente General</span></h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="assets/AuronPlay.jpeg">
+                        </div>
+                        <div class="details">
+                            <h2>Auron Play<br> <span>SubPresidente</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contac -->
+        <section class="sec contact" id="tcontac">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3> Escribe para más Información </h3>
+                    <p> Para más información contactenos por medio de correo o por medio de nuetras redes sociales. </p>
+                </div>
+                <div class="contactForm">
+                    <form id="form">
+                        <div class="row100">
+                            <div class="inputBx50">
+                                <input type="text" name="" placeholder="Nombre"
+                                id ="nombre" onkeyup ="valnom()">
+                                <span id="name"></span>>
+                            </div>
+                            <div class="inputBx50">
+                                <input type="text" name="" placeholder="Email"
+                                id = "email" onkeyup="validacion()">
+                                <span id="text"></span>
+                            </div>
+                            <div class="inputBx50">
+                                <input type="text" name="" placeholder="Telefono"
+                                id="numero" onkeyup="valnum()">
+                                <span id="num"></span>>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea placeholder="Mensaje"id="msj" onkeyup="mensa()"></textarea>
+                                <span id="mensa"></span>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="sci">
+                    <ul>
+                        <li><a href="#"><img src="assets/facebook.png"></a></li>
+                        <li><a href="#"><img src="assets/twitter.png"></a></li>
+                        <li><a href="#"><img src="assets/linkedin.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="button-up">
+                <i class="fa-solid fa-up-long"></i>
+            </div>   
+            
+            
+        </section>
+        <!-- Login -->
+
+        <section>
+            <div id="loginBox" class="loginBox">
+                <img src="assets/user.png" class="user">
+                <div class="btnClose" onClick="cerrarlogin()">
+                    <img src="assets/cancelar.png">
+                </div>
+                    <h2> Iniciar sesión </h2>
+                    <form action="users_login.php" method="POST">
+                        <p>Email</p>
+                        <input type="text" 
+                            name="email"
+                            placeholder="Escribe tu email">
+                        <p>Contraseña</p>
+                        <input type="password" 
+                            name="password"
+                            placeholder="******">
+                        <input type="submit" value="Entrar">
+                        <a href="users_nuevo.php"> Crea una cuenta</a>
+                        <a href="cambiar_contra.php"> ¿Olvidó su contraseña? </a>
+                    </form>
+            </div>
+        </section>
+
+        <!-- SECCION DEL JAVASCRIP -->
+        <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0)
+            })
+            function alternar(){
+                var header = document.querySelector("header");
+                header.classList.toggle("active");
+            }
+            buttonUp = document.getElementById("button-up");
+            buttonUp.addEventListener("click", scrollUp);
+            window.onscroll = function(){
+                var scroll = document.documentElement.scrollTop;
+                if (scroll > 200){
+                    buttonUp.style.transform = "scale(1)";
+                }
+                else{
+                    buttonUp.style.transform = "scale(0)";
+                }
+            }
+            function scrollUp(){
+                var scroll = document.documentElement.scrollTop;
+                if(scroll>0){
+                    window.requestAnimationFrame(scrollUp);
+                    window.scrollTo(0, scroll-(scroll/10));
+                }
+            }
+            // Validacion de campos 
+            function valnom(){
+                var nombre = document.getElementById("nombre").value;
+                var text = document.getElementById("name");
+                var pattern = /^[A-Za-z ]*$/;
+                if (nombre.match(pattern)){
+                    text.innerHTML="El nombre es valido";
+                    text.style.color ="#4978ff";
+                }    
+                else{
+                    text.innerHTML="Ingrese solo letras";
+                    text.style.color ="#ff0000";     
+            }
+            }
+            function validacion(){
+                var email = document.getElementById("email").value;
+                var text = document.getElementById("text");
+                var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+                if (email.match(pattern)){
+                    text.innerHTML="Email valido";
+                    text.style.color="#4978ff";
+                }
+                else{
+                    text.innerHTML="Introduzca un email valido";
+                    text.style.color="#ff0000";
+                }
+            } 
+            function valnum(){
+                var numero = document.getElementById("numero").value;
+                var text = document.getElementById("num");
+                var valor = /^\d{9,19}$/;
+                if (numero.match(valor)){
+                    text.innerHTML="Numero validado";
+                    text.style.color ="#4978ff";    
+                }
+                else{
+                    text.innerHTML="introduzca 10 digitos(solo numeros)";
+                    text.style.color ="#ff0000";     
+                }
+            }
+            function mensa(){
+                var numero = document.getElementById("msj").value;
+                var text = document.getElementById("mensa");
+                var pattern = /^[A-Za-z ]*$/;
+                if (numero.match(pattern)){
+                    text.innerHTML="Mensaje Validado";
+                    text.style.color ="#4978ff";    
+                }
+                else{
+                    text.innerHTML="Escriba un Mensaje";
+                    text.style.color ="#ff0000";     
+                }
+            }
+            //Login 
+            function showloginBox(){
+                loginBox = document.getElementById("loginBox");
+                loginBox.classList.add("active")
+            }
+            function cerrarlogin(){
+                loginBox = document.getElementById("loginBox");
+                loginBox.classList.remove("active")
+            }
+        </script>     
+    </body>
+</html>
